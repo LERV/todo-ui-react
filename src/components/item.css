@@ -1,0 +1,9 @@
+.item {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin: 10px 0 10px 0;
+}
+/* 
+.item:first-child {
+    border-bottom-width: 2px;
+} */

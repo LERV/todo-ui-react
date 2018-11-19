@@ -1,0 +1,19 @@
+.page {
+    background-color:#fff;
+}
+
+.input {
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+}
+
+.input--width {
+    border:none;
+    width: 100%;
+}
+.input--width:focus {
+    outline:none;
+   
+}

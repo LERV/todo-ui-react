@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Button } from 'reactstrap'; //For bootstrap
 
 import Todo from './pages/todo';
 
@@ -9,7 +9,7 @@ class App extends Component {
     value: '',
   };
 
-  onChangeInput = () => {
+  onChangeInput = e => {
     this.setState({
       value: e.target.value,
     });
@@ -17,11 +17,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="row">
-          Test
-          <Todo onChange={this.onChangeInput} value={this.state.value} />
-        </div>
+      <div className="background">
+        <Todo />
       </div>
     );
   }
